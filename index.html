@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Calculator app</title>
+  </head>
+
+  <body>
+    <div class="check">
+      <p class="theme">THEME</p>
+      <label class="switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <div class="calculator">
+      <div class="screen">
+        <p class="result current-operand"></p>
+      </div>
+      <div class="button-space">
+        <button id="btn" class="btn data-number">7</button>
+        <button id="btn" class="btn data-number">8</button>
+        <button id="btn" class="btn data-number">9</button>
+        <button class="del data-delete">DEL</button>
+        <button id="btn" class="btn data-number">4</button>
+        <button id="btn" class="btn data-number">5</button>
+        <button id="btn" class="btn data-number">6</button>
+        <button id="btn" class="btn data-operation">+</button>
+        <button id="btn" class="btn data-number">1</button>
+        <button id="btn" class="btn data-number">2</button>
+        <button id="btn" class="btn data-number">3</button>
+        <button id="btn" class="btn data-operation">-</button>
+        <button id="btn" class="btn data-number">.</button>
+        <button id="btn" class="btn data-number">0</button>
+        <button id="btn" class="btn data-operation">/</button>
+        <button id="btn" class="btn data-operation">*</button>
+        <button class="long-btn data-all-clear">RESET</button>
+        <button class="long-btn1 data-equals">=</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
